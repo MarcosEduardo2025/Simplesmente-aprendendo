@@ -1,8 +1,12 @@
-# Financas Jr
+# Simplesmente-aprendendo
 
-Aplicacao de financas pessoais com frontend React/Vite e API Laravel, organizados em pastas independentes.
+Neste repositório você vai encontrar projetos do meu portfólio e acompanhar minha evolução como desenvolvedor.
 
-## Executar com Docker
+## Finanças Jr
+
+Aplicação de finanças pessoais com frontend React/Vite e API Laravel, organizados em pastas independentes.
+
+### Executar com Docker
 
 1. Inicie o Docker Desktop.
 2. Crie o arquivo local de configuração e defina uma senha exclusiva para o banco:
@@ -26,7 +30,7 @@ Para parar os serviços, pressione `Ctrl+C` ou execute `docker compose down`. Os
 
 Para apagar os registros do banco em execução e recriar as tabelas vazias, execute `docker compose exec backend php artisan migrate:fresh --force`. Esse comando remove todos os dados do banco.
 
-## Estrutura
+### Estrutura
 
 - `frontend/`: React, Vite e interface da aplicação.
 - `backend/`: API Laravel, autenticação Sanctum e migrations.
